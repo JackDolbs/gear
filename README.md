@@ -44,7 +44,7 @@ Gear ensures very minimal, intuitive, and sufficient API for running both newly 
 
 Refer to the [technical paper](https://github.com/gear-tech/gear-technical/blob/master/TECHNICAL.pdf) for some insights about how Gear works internally.
 
-## <img style="vertical-align:middle" src="https://seeklogo.com/images/F/For_Dummies-logo-270963AFD1-seeklogo.com.png" width="60" alt="get-start"> Getting Started
+## Getting Started
 
 1. To start familiarity with Gear, download and run Gear node connected to the testnet.
 
