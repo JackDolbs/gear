@@ -2,21 +2,23 @@
 <h1 align="center"> 
 <p align="center">
   <a href="https://gear-tech.io">
-    <img src="https://gear-tech.io/images/footer-logo.svg" width="440" alt="GEAR">
+    <img src="https://gear-tech.io/images/footer-logo.svg" width="400" alt="GEAR">
   </a>
 </p>
 The most advanced smart-contract engine
 </h1>
-<br>
-<h4 align="center">Hit the <a href="https://github.com/gear-tech/gear">:star:</a> button to keep up with our daily progress!</h4>
+<p align="center">
+GEAR is a Substrate-based smart-contract platform with WASM VM runtime environment allowing anyone to run dApp in a few minutes.
+</p>
+<hr>
 
 <div align="center">
 
 [![CI][c1]][c2]
-[![GitHubStars][g1]][g2]
-[![Discord][d1]][d2]
-[![Twitter][t1]][t2]
-[![License][l1]][l2]
+[![GitHubStars][g1]][g2] 
+[![Discord][d1]][d2] 
+[![Twitter][t1]][t2] 
+[![License][l1]][l2] 
 
 [c1]: https://github.com/gear-tech/gear/workflows/CI/badge.svg
 [c2]: https://github.com/gear-tech/gear/actions/workflows/CI.yaml
@@ -34,23 +36,94 @@ The most advanced smart-contract engine
 [l2]: https://github.com/gear-tech/gear/blob/master/
 </div>
 
+<h4 align="center">Hit the <a href="https://github.com/gear-tech/gear">:star:</a> button to keep up with our daily progress!</h4>
+
 <hr>
 
-Gear is a new Polkadot/Kusama parachain and most advanced L2 smart-contract engine allowing anyone to launch any dApp for networks with untrusted code.
+# Why?
+
+The blockchain technology launched a rapid transition from centralized, server-based internet (Web2) to decentralized, distributed one (Web3). 
+
+Web3 introduces a new type of decentralized applications (dApps) that enable the existence of DeFi, DEX, Decentralized marketplaces, NFTs, Creators and Social Tokens.
+
+Smart Contract is an equivalent of a microservice which is stored on the blockchain network and is the essential building block of a decentralized application.
+
+Modern blockchains solve many issues of the older blockchain networks, such as:
+ - Lack of scalability, low transaction speed, high transaction costs
+ - Domain-specific development language (high barrier to entry)
+ - Complex and inefficient native consensus protocols
+ - Absence of intercommunication tools
+
+But still have room for improvements due to:
+ - Fixated, rigid native consensus protocols
+ - Lack of interoperability with other networks
+
+To resolve the interoperability issue, Parity technologies focused on creating a technology that connects every other blockchain: 
+  - Polkadot - a blockchain of blockchains. Provides a “relay chain” (the primary blockchain) that allows “parachains” (functional blockchains) to be deployed on top of it. All parachains are interconnected, creating a massive network of multifunctional blockchain services.
+  - Substrate - a modular framework that allows to create custom-built blockchains with consensus mechanism, core functionality and security out of the box.
+
+Building a blockchain with Substrate allows it to be deployed on any compatible relay chain such as Polkadot and Kusama
+Substrate serves as a layer of communication between the relay chain and the parachain
+
+# What does Gear do?
 
 Gear provides the easiest and most cost-effective way to run WebAssembly programs (smart-contracts) compiled from many popular languages, such as C/C++, Rust and more.
 
 Gear ensures very minimal, intuitive, and sufficient API for running both newly written and existing programs on multiple networks without the need to rewrite them.
 
-Refer to the [technical paper](https://github.com/gear-tech/gear-technical/blob/master/TECHNICAL.pdf) for some insights about how Gear works internally.
+Smart Contracts are stored in the blockchain’s state and are invoked preserving their state upon request
 
-## <img style="vertical-align:middle" src="https://seeklogo.com/images/F/For_Dummies-logo-270963AFD1-seeklogo.com.png" width="60" alt="get-start"> Getting Started
+GEAR enables a seamless transition to Web3, including applications, middleware and APIs.
+
+### Key features
+
+ - Programs run in WASM WM (near-native code execution speed)
+ - Unique: Parallelizable architecture (even greater speed)
+ - Unique: Actor model for message-passing communications - secure, effective, clear
+ - dApp in minutes using GEAR libraries
+ - Based on Substrate
+
+### Main capabilities
+
+Gear allows anyone to create and run any custom-logic dApp and is a go-to solution for the following types of applications:
+  - A self-contained blockchain network (and very fast).
+  - A standalone instance running microservices, middleware, open API and more
+  - Being a Polkadot parachain, establish cross-chain communications between other blockchains. Allow anyone to run a dApp in the Polkadot network in a very cost-less manner.
+  - Join Substrate-supported blockchains in any other platform outside Polkadot.
+
+# How does it work?
+
+<div style="background-image: url('C:\Users\apsln\Documents\GitHub\ap-gear\gear\images\internal_flow.png'); align: top; height: 500">
+Refer to the [technical paper](https://github.com/gear-tech/gear-technical/blob/master/TECHNICAL.pdf) for some insights about how Gear works internally.
+</div>
+
+# Usage
+
+### Build your smart contract
+
+```bash
+cargo ...
+```
+
+## Upload contract
+
+1. in Gear test net, Gear js UI
+
+<img style="vertical-align:middle" src="..." width="40" alt="get-start">
+Screenoshot / GIF
+
+2. connect your node...
+
+
+## <img style="vertical-align:middle" src="https://seeklogo.com/images/F/For_Dummies-logo-270963AFD1-seeklogo.com.png" width="40" alt="get-start"> Getting Started
 
 1. To start familiarity with Gear, download and run Gear node connected to the testnet.
 
-2. Deploy and test smart contracts, check how it is going. A comprehensive amount of smart contract examples is available for your convenience and faster onboarding.
+2. Build your smart-contract into WASM 
 
-## <img style="vertical-align:middle" src="https://miro.medium.com/max/256/0*85Brxv3Qe4ps_A6C" width="60" alt="run-node"> Run Gear Node
+2. Deploy and test smart contract, check how it is going. A comprehensive amount of smart contract examples is available for your convenience and faster onboarding.
+
+## <img style="vertical-align:middle" src="https://miro.medium.com/max/256/0*85Brxv3Qe4ps_A6C" width="40" alt="run-node"> Run Gear Node
 
 1. Download nightly build of Gear node:
 
@@ -75,7 +148,7 @@ Gear node can run in a single Dev Net mode or you can create a Multi-Node local 
 
 Refer to the [Gear Node README](https://github.com/gear-tech/gear/tree/master/node) for details and some examples.
 
-## <img style="vertical-align:middle" src="https://www.clipartmax.com/png/full/37-379882_smart-contract-vulnerability-smart-contracts-blockchain-icon.png" width="60" alt="run-node"> Run you first smart contract
+## <img style="vertical-align:middle" src="https://www.clipartmax.com/png/full/37-379882_smart-contract-vulnerability-smart-contracts-blockchain-icon.png" width="40" alt="run-node"> Run you first smart contract
 
 Prepare your program
 1. Choose an example program from [examples](https://github.com/gear-tech/gear/tree/master/examples) or use your own program
