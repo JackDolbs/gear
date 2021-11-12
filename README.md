@@ -68,11 +68,10 @@ Substrate serves as a layer of communication between the relay chain and the par
 
 # ⚙️ What does Gear do?
 
-| | |
+|||
 |:--:|:--:|
 |<img src="images\rust.png" height="64"><br>Gear provides the easiest and most cost-effective way to run WebAssembly programs (smart-contracts) compiled from many popular languages, such as Rust, C/C++ and more.|<img src="images\api.png" height="64"><br>Gear ensures very minimal, intuitive, and sufficient API for running both newly written and existing programs on multiple networks without the need to rewrite them.|
 |<img src="images\state.png" height="64"><br>Smart Contracts are stored in the blockchain’s state and are invoked preserving their state upon request.|<img src="images\apps.png" height="64"><br>GEAR enables a seamless transition to Web3, alows running dApps, microservices, middleware, open APIs.|
-
 
 ### Key features
 
