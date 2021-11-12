@@ -244,3 +244,32 @@ Gear is licensed under [GPL v3.0 with a classpath linking exception](LICENSE).
   </tr>
 </table>
 </h4>
+
+<h4>
+<a href="https://gear-tech.io/">
+      <img alt="image" src="https://gear-tech.io/images/footer-logo.svg" height="32">
+    </a> <a href="https://wiki.gear-tech.io/">
+      Wiki
+    </a>
+    <a href="https://gear-tech.io/#community">
+      Community
+    </a>
+    <a href="https://gear-tech.io/events.html">
+      Events
+    </a>
+    <a href="https://gear-tech.io/#about">
+      About us
+    </a>
+    <a href="https://twitter.com/gear_techs">
+        <img src="https://gear-tech.io/images/footer-social-icon-1.svg" alt="twit">
+    </a>
+    <a href="https://github.com/gear-tech">
+        <img src="https://gear-tech.io/images/footer-social-icon-2.svg" alt="github">
+    </a>
+    <a href="https://discord.gg/7BQznC9uD9">
+        <img src="https://gear-tech.io/images/footer-social-icon-3.svg" alt="discord">
+    </a>
+    <a href="https://medium.com/@gear_techs">
+        <img src="https://gear-tech.io/images/footer-social-icon-4.svg" alt="medium">
+    </a>
+</h4>
