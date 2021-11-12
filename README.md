@@ -199,13 +199,13 @@ Gear is licensed under [GPL v3.0 with a classpath linking exception](LICENSE).
 <p align="left" nowrap>
     <a href="https://twitter.com/gear_techs">
         <img src="https://gear-tech.io/images/footer-social-icon-1.svg" alt="twit" style="vertical-align:middle" >
-    </a> |
+    </a> 
     <a href="https://github.com/gear-tech">
         <img src="https://gear-tech.io/images/footer-social-icon-2.svg" alt="github" style="vertical-align:middle" >
-    </a> |
+    </a> 
     <a href="https://discord.gg/7BQznC9uD9">
         <img src="https://gear-tech.io/images/footer-social-icon-3.svg" alt="discord" style="vertical-align:middle" >
-    </a> |
+    </a> 
     <a href="https://medium.com/@gear_techs">
         <img src="https://gear-tech.io/images/footer-social-icon-4.svg" alt="medium" style="vertical-align:middle" >
     </a>
