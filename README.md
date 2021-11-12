@@ -1,15 +1,16 @@
 
-<h1 align="center"> 
 <p align="center">
   <a href="https://gear-tech.io">
     <img src="https://gear-tech.io/images/footer-logo.svg" width="400" alt="GEAR">
   </a>
 </p>
+
+<h1 align="center"> 
 The most advanced smart-contract engine
 </h1>
 
 <p align="center">
- <img src="images\gear.gif" alt="Snow"><br>
+ <img src="images/gear.gif" alt="Snow"><br>
 Gear is a Substrate-based smart-contract platform allowing anyone to run dApp in a few minutes.
 </p>
 
@@ -41,7 +42,30 @@ Gear is a Substrate-based smart-contract platform allowing anyone to run dApp in
 
 <h4 align="center">Hit the <a href="https://github.com/gear-tech/gear">:star:</a> button to keep up with our daily progress!</h4>
 
-# 🧐 Why?
+# ⚙️ What does Gear do?
+
+|||
+|:--:|:--:|
+|<img src="images/rust.png" height="64"><br>Gear provides the easiest and most cost-effective way to run WebAssembly programs (smart-contracts) compiled from many popular languages, such as Rust, C/C++ and more.|<img src="images/api.png" height="64"><br>Gear ensures very minimal, intuitive, and sufficient API for running both newly written and existing programs on multiple networks without the need to rewrite them.|
+|<img src="images/state.png" height="64"><br>Smart Contracts are stored in the blockchain’s state and are invoked preserving their state upon request.|<img src="images/apps.png" height="64"><br>GEAR enables a seamless transition to Web3, alows running dApps, microservices, middleware, open APIs.|
+
+### :fire: Key features
+
+ - Programs run in WASM WM (near-native code execution speed)срщлщ 
+ - **Unique** :crown: : Parallelizable architecture (even greater speed)
+ - **Unique** :crown: : Actor model for message-passing communications - secure, effective, clear
+ - dApp in minutes using GEAR libraries
+ - Based on Substrate
+
+### :bulb: Main capabilities
+
+Gear allows anyone to create and run any custom-logic dApp and is a go-to solution for the following types of applications:
+  - A **self-contained blockchain** network (and very fast).
+  - A standalone instance running microservices, middleware, open API and more
+  - Being a **Polkadot parachain**, establish cross-chain communications between other blockchains. Allow anyone to run a dApp in the Polkadot network in a very **cost-less** manner.
+  - Join Substrate-supported blockchains in any other platform outside Polkadot.
+  
+  # 🧐 Why?
 
 The blockchain technology launched a rapid transition from centralized, server-based internet (Web2) to decentralized, distributed one (Web3). 
 
@@ -66,39 +90,16 @@ To resolve the interoperability issue, Parity technologies focused on creating a
 Building a blockchain with Substrate allows it to be deployed on any compatible relay chain such as Polkadot and Kusama
 Substrate serves as a layer of communication between the relay chain and the parachain
 
-# ⚙️ What does Gear do?
-
-|||
-|:--:|:--:|
-|<img src="images\rust.png" height="64"><br>Gear provides the easiest and most cost-effective way to run WebAssembly programs (smart-contracts) compiled from many popular languages, such as Rust, C/C++ and more.|<img src="images\api.png" height="64"><br>Gear ensures very minimal, intuitive, and sufficient API for running both newly written and existing programs on multiple networks without the need to rewrite them.|
-|<img src="images\state.png" height="64"><br>Smart Contracts are stored in the blockchain’s state and are invoked preserving their state upon request.|<img src="images\apps.png" height="64"><br>GEAR enables a seamless transition to Web3, alows running dApps, microservices, middleware, open APIs.|
-
-### Key features
-
- - Programs run in WASM WM (near-native code execution speed)
- - **Unique**: Parallelizable architecture (even greater speed)
- - **Unique**: Actor model for message-passing communications - secure, effective, clear
- - dApp in minutes using GEAR libraries
- - Based on Substrate
-
-### Main capabilities
-
-Gear allows anyone to create and run any custom-logic dApp and is a go-to solution for the following types of applications:
-  - A **self-contained blockchain** network (and very fast).
-  - A standalone instance running microservices, middleware, open API and more
-  - Being a **Polkadot parachain**, establish cross-chain communications between other blockchains. Allow anyone to run a dApp in the Polkadot network in a very **cost-less** manner.
-  - Join Substrate-supported blockchains in any other platform outside Polkadot.
-
 # 🏭 How does it work?
 
 <div style="position: relative;">
-  <img src="images\internal_flow.png" alt="Snow" style="width:100%;">
+  <img src="images/internal_flow.png" alt="Snow" style="width:100%;">
   <div style="position: absolute; top: 8px; left: 16px">The internal flow of Gear
   </div>
 </div>
 Refer to the <a href="https://github.com/gear-tech/gear-technical/blob/master/TECHNICAL.pdf">technical paper</a> for some insights about how Gear works internally.
 
-# Gear components
+# :books: Gear components
 
 * [core](https://github.com/gear-tech/gear/tree/master/core) - Gear engine for distributed computing core components.
 
