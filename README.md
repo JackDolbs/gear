@@ -76,8 +76,8 @@ td, th {
 
 | | |
 |:--:|:--:|
-|<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/440px-Rust_programming_language_black_logo.svg.png" height="64"><br>Gear provides the easiest and most cost-effective way to run WebAssembly programs (smart-contracts) compiled from many popular languages, such as Rust, C/C++ and more.|<img src="https://cdn-icons.flaticon.com/png/512/2721/premium/2721620.png?token=exp=1636710308~hmac=3f034973f41e21445556a8423cdb5d11" height="64"><br>Gear ensures very minimal, intuitive, and sufficient API for running both newly written and existing programs on multiple networks without the need to rewrite them.|
-|<img src="https://cdn-icons.flaticon.com/png/512/3114/premium/3114998.png?token=exp=1636710881~hmac=e592322aee3b6cee39aeb0b2703e6782" height="64"><br>Smart Contracts are stored in the blockchain’s state and are invoked preserving their state upon request.|<img src="https://cdn-icons-png.flaticon.com/512/3063/3063668.png" height="64"><br>GEAR enables a seamless transition to Web3, alows running dApps, microservices, middleware, open APIs.|
+|<img src="images\rust.png" height="64"><br>Gear provides the easiest and most cost-effective way to run WebAssembly programs (smart-contracts) compiled from many popular languages, such as Rust, C/C++ and more.|<img src="images\api.png" height="64"><br>Gear ensures very minimal, intuitive, and sufficient API for running both newly written and existing programs on multiple networks without the need to rewrite them.|
+|<img src="images\state.png" height="64"><br>Smart Contracts are stored in the blockchain’s state and are invoked preserving their state upon request.|<img src="images\apps.png" height="64"><br>GEAR enables a seamless transition to Web3, alows running dApps, microservices, middleware, open APIs.|
 
 
 ### Key features
