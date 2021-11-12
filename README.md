@@ -68,12 +68,6 @@ Substrate serves as a layer of communication between the relay chain and the par
 
 # ⚙️ What does Gear do?
 
-<style>
-td, th {
-   border: none!important;
-}
-</style>
-
 | | |
 |:--:|:--:|
 |<img src="images\rust.png" height="64"><br>Gear provides the easiest and most cost-effective way to run WebAssembly programs (smart-contracts) compiled from many popular languages, such as Rust, C/C++ and more.|<img src="images\api.png" height="64"><br>Gear ensures very minimal, intuitive, and sufficient API for running both newly written and existing programs on multiple networks without the need to rewrite them.|
