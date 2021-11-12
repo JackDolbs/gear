@@ -246,8 +246,9 @@ Gear is licensed under [GPL v3.0 with a classpath linking exception](LICENSE).
 </h4>
 
 <h4>
+<p align="center">
 <a href="https://gear-tech.io/">
-      <img alt="image" src="https://gear-tech.io/images/footer-logo.svg" height="32">
+      <img alt="image" src="https://gear-tech.io/images/footer-logo.svg" height="32" style="vertical-align:middle" >
     </a> <a href="https://wiki.gear-tech.io/">
       Wiki
     </a>
@@ -261,15 +262,16 @@ Gear is licensed under [GPL v3.0 with a classpath linking exception](LICENSE).
       About us
     </a>
     <a href="https://twitter.com/gear_techs">
-        <img src="https://gear-tech.io/images/footer-social-icon-1.svg" alt="twit">
+        <img src="https://gear-tech.io/images/footer-social-icon-1.svg" alt="twit" style="vertical-align:middle" >
     </a>
     <a href="https://github.com/gear-tech">
-        <img src="https://gear-tech.io/images/footer-social-icon-2.svg" alt="github">
+        <img src="https://gear-tech.io/images/footer-social-icon-2.svg" alt="github" style="vertical-align:middle" >
     </a>
     <a href="https://discord.gg/7BQznC9uD9">
-        <img src="https://gear-tech.io/images/footer-social-icon-3.svg" alt="discord">
+        <img src="https://gear-tech.io/images/footer-social-icon-3.svg" alt="discord" style="vertical-align:middle" >
     </a>
     <a href="https://medium.com/@gear_techs">
-        <img src="https://gear-tech.io/images/footer-social-icon-4.svg" alt="medium">
+        <img src="https://gear-tech.io/images/footer-social-icon-4.svg" alt="medium" style="vertical-align:middle" >
     </a>
+</p>
 </h4>
