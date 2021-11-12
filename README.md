@@ -189,52 +189,58 @@ TBD...
 You can request a new feature by creating a new Issue or discuss it with us on Discord. 
 Here are some features in-prog or planned: https://github.com/gear-tech/gear/issues
 
-## License
+# License
 
 Gear is licensed under [GPL v3.0 with a classpath linking exception](LICENSE).
 
-## 
+##
 
-<div align="center"><a name="menu"></a>
-  <h4>
-    <a href="https://gear-tech.io/">
+<h4>
+<table>
+  <tr>
+    <td><a href="https://gear-tech.io/">
       <img style="vertical-align:middle" alt="image" src="https://gear-tech.io/images/footer-logo.svg" height="32">
     </a>
-    <span> | </span>
-    <a href="https://gear-tech.io/">
-      Website
-    </a>
-    <span> • </span>
-    <a href="https://wiki.gear-tech.io/">
+    </td>
+    <td><a href="https://wiki.gear-tech.io/">
       Wiki
     </a>
-    <span> • </span>
+    </td>
+    <td>
     <a href="https://gear-tech.io/#community">
       Community
     </a>
-    <span> • </span>
+    </td>
+    <td>
     <a href="https://gear-tech.io/events.html">
       Events
     </a>
-    <span> • </span>
+    </td>
+    <td nowrap>
     <a href="https://gear-tech.io/#about">
-      About the company
+      About us
     </a>
-    <span> | </span>
+    </td>
+    <td>
     <a href="https://twitter.com/gear_techs">
         <img src="https://gear-tech.io/images/footer-social-icon-1.svg" alt="twit" style="width:24px;  height:24px; vertical-align:middle">
     </a>
-    <span> | </span>
+    </td>
+    <td>
     <a href="https://github.com/gear-tech">
         <img src="https://gear-tech.io/images/footer-social-icon-2.svg" alt="github" style="width:24px;  height:24px; vertical-align:middle">
     </a>
-    <span> | </span>
+    </td>
+    <td>
     <a href="https://discord.gg/7BQznC9uD9">
         <img src="https://gear-tech.io/images/footer-social-icon-3.svg" alt="discord" style="width:24px;  height:24px; vertical-align:middle">
     </a>
-    <span> | </span>
+    </td>
+    <td>
     <a href="https://medium.com/@gear_techs">
         <img src="https://gear-tech.io/images/footer-social-icon-4.svg" alt="medium" style="width:24px;  height:24px; vertical-align:middle">
     </a>
-  </h4>
-</div>
+    </td>
+  </tr>
+</table>
+</h4>
