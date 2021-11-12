@@ -195,13 +195,8 @@ Gear is licensed under [GPL v3.0 with a classpath linking exception](LICENSE).
 
 ##
 
-<h4 align="center">
-
-.noBorder {
-    border:none !important;
-}
-
-<table class="noBorder">
+<h4>
+<table align="center">
   <tr>
     <td><a href="https://gear-tech.io/">
       <img style="vertical-align:middle" alt="image" src="https://gear-tech.io/images/footer-logo.svg" height="32">
