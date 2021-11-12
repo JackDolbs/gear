@@ -116,7 +116,7 @@ Refer to the <a href="https://github.com/gear-tech/gear-technical/blob/master/TE
 * [examples](https://github.com/gear-tech/gear/tree/master/examples) - Gear smart contract examples.
 
 
-## <img style="vertical-align:middle" src="https://seeklogo.com/images/F/For_Dummies-logo-270963AFD1-seeklogo.com.png" width="40" alt="get-start"> Getting Started
+# <img style="vertical-align:middle" src="https://seeklogo.com/images/F/For_Dummies-logo-270963AFD1-seeklogo.com.png" width="40" alt="get-start"> Getting Started
 
 1. To start familiarity with Gear, download and run Gear node connected to the testnet.
 
@@ -184,12 +184,10 @@ Upload program locally on your node:
 
 TBD...
 
-# Road Map
+# Contribution
 
-If you want to see a new feature feel free to create a new Issue or discuss it with us on Discord. Here are some features which are either under way or planned:
-
-- [x] [Grid / Screen Filters](https://github.com/Hexworks/zircon/issues/271)
-- [ ] [Floating Components](https://github.com/Hexworks/zircon/issues/23)
+You can request a new feature by creating a new Issue or discuss it with us on Discord. 
+Here are some features in-prog or planned: https://github.com/gear-tech/gear/issues
 
 ## License
 
