@@ -7,10 +7,13 @@
 </p>
 The most advanced smart-contract engine
 </h1>
+
 <p align="center">
-GEAR is a Substrate-based smart-contract platform with WASM VM runtime environment allowing anyone to run dApp in a few minutes.
+ <img src="images\gear.gif" alt="Snow"><br>
+Gear is a Substrate-based smart-contract platform allowing anyone to run dApp in a few minutes.
 </p>
-<hr>
+
+# 
 
 <div align="center">
 
@@ -33,14 +36,12 @@ GEAR is a Substrate-based smart-contract platform with WASM VM runtime environme
 [d2]: https://discord.com/invite/7BQznC9uD9
 
 [l1]: https://img.shields.io/badge/License-GPL%203.0-success
-[l2]: https://github.com/gear-tech/gear/blob/master/
+[l2]: https://github.com/gear-tech/gear/blob/master/LICENSE
 </div>
 
 <h4 align="center">Hit the <a href="https://github.com/gear-tech/gear">:star:</a> button to keep up with our daily progress!</h4>
 
-<hr>
-
-# Why?
+# 🧐 Why?
 
 The blockchain technology launched a rapid transition from centralized, server-based internet (Web2) to decentralized, distributed one (Web3). 
 
@@ -65,54 +66,54 @@ To resolve the interoperability issue, Parity technologies focused on creating a
 Building a blockchain with Substrate allows it to be deployed on any compatible relay chain such as Polkadot and Kusama
 Substrate serves as a layer of communication between the relay chain and the parachain
 
-# What does Gear do?
+# ⚙️ What does Gear do?
 
-Gear provides the easiest and most cost-effective way to run WebAssembly programs (smart-contracts) compiled from many popular languages, such as C/C++, Rust and more.
+<style>
+td, th {
+   border: none!important;
+}
+</style>
 
-Gear ensures very minimal, intuitive, and sufficient API for running both newly written and existing programs on multiple networks without the need to rewrite them.
+| | |
+|:--:|:--:|
+|<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Rust_programming_language_black_logo.svg/440px-Rust_programming_language_black_logo.svg.png" height="64"><br>Gear provides the easiest and most cost-effective way to run WebAssembly programs (smart-contracts) compiled from many popular languages, such as Rust, C/C++ and more.|<img src="https://cdn-icons.flaticon.com/png/512/2721/premium/2721620.png?token=exp=1636710308~hmac=3f034973f41e21445556a8423cdb5d11" height="64"><br>Gear ensures very minimal, intuitive, and sufficient API for running both newly written and existing programs on multiple networks without the need to rewrite them.|
+|<img src="https://cdn-icons.flaticon.com/png/512/3114/premium/3114998.png?token=exp=1636710881~hmac=e592322aee3b6cee39aeb0b2703e6782" height="64"><br>Smart Contracts are stored in the blockchain’s state and are invoked preserving their state upon request.|<img src="https://cdn-icons-png.flaticon.com/512/3063/3063668.png" height="64"><br>GEAR enables a seamless transition to Web3, alows running dApps, microservices, middleware, open APIs.|
 
-Smart Contracts are stored in the blockchain’s state and are invoked preserving their state upon request
-
-GEAR enables a seamless transition to Web3, including applications, middleware and APIs.
 
 ### Key features
 
  - Programs run in WASM WM (near-native code execution speed)
- - Unique: Parallelizable architecture (even greater speed)
- - Unique: Actor model for message-passing communications - secure, effective, clear
+ - **Unique**: Parallelizable architecture (even greater speed)
+ - **Unique**: Actor model for message-passing communications - secure, effective, clear
  - dApp in minutes using GEAR libraries
  - Based on Substrate
 
 ### Main capabilities
 
 Gear allows anyone to create and run any custom-logic dApp and is a go-to solution for the following types of applications:
-  - A self-contained blockchain network (and very fast).
+  - A **self-contained blockchain** network (and very fast).
   - A standalone instance running microservices, middleware, open API and more
-  - Being a Polkadot parachain, establish cross-chain communications between other blockchains. Allow anyone to run a dApp in the Polkadot network in a very cost-less manner.
+  - Being a **Polkadot parachain**, establish cross-chain communications between other blockchains. Allow anyone to run a dApp in the Polkadot network in a very **cost-less** manner.
   - Join Substrate-supported blockchains in any other platform outside Polkadot.
 
-# How does it work?
+# 🏭 How does it work?
 
-<div style="background-image: url('C:\Users\apsln\Documents\GitHub\ap-gear\gear\images\internal_flow.png'); align: top; height: 500">
-Refer to the [technical paper](https://github.com/gear-tech/gear-technical/blob/master/TECHNICAL.pdf) for some insights about how Gear works internally.
+<div style="position: relative;">
+  <img src="images\internal_flow.png" alt="Snow" style="width:100%;">
+  <div style="position: absolute; top: 8px; left: 16px">The internal flow of Gear
+  </div>
 </div>
+Refer to the <a href="https://github.com/gear-tech/gear-technical/blob/master/TECHNICAL.pdf">technical paper</a> for some insights about how Gear works internally.
 
-# Usage
+# Gear components
 
-### Build your smart contract
+* [core](https://github.com/gear-tech/gear/tree/master/core) - Gear engine for distributed computing core components.
 
-```bash
-cargo ...
-```
+* [node](https://github.com/gear-tech/gear/tree/master/node) - Gear substrate-based node, ready for hacking :rocket:.
 
-## Upload contract
+* [gstd](https://github.com/gear-tech/gear/tree/master/gstd) - Standard library for Gear smart contracts.
 
-1. in Gear test net, Gear js UI
-
-<img style="vertical-align:middle" src="..." width="40" alt="get-start">
-Screenoshot / GIF
-
-2. connect your node...
+* [examples](https://github.com/gear-tech/gear/tree/master/examples) - Gear smart contract examples.
 
 
 ## <img style="vertical-align:middle" src="https://seeklogo.com/images/F/For_Dummies-logo-270963AFD1-seeklogo.com.png" width="40" alt="get-start"> Getting Started
@@ -124,6 +125,8 @@ Screenoshot / GIF
 2. Deploy and test smart contract, check how it is going. A comprehensive amount of smart contract examples is available for your convenience and faster onboarding.
 
 ## <img style="vertical-align:middle" src="https://miro.medium.com/max/256/0*85Brxv3Qe4ps_A6C" width="40" alt="run-node"> Run Gear Node
+
+....Some node Badge...?
 
 1. Download nightly build of Gear node:
 
@@ -157,6 +160,8 @@ Prepare your program
 ### Upload program from UI
     
 1. Go to [https://idea.gear-tech.io](https://idea.gear-tech.io)
+<img style="vertical-align:middle" src="..." width="40" alt="get-start">
+Screenoshot / GIF
 
 2. Sign in to Gear via Telegram or Github account
 
@@ -179,23 +184,12 @@ Upload program locally on your node:
 
 TBD...
 
-## Gear Components
+# Road Map
 
-* [core](https://github.com/gear-tech/gear/tree/master/core)
+If you want to see a new feature feel free to create a new Issue or discuss it with us on Discord. Here are some features which are either under way or planned:
 
-    Gear engine for distributed computing core components.
-
-* [node](https://github.com/gear-tech/gear/tree/master/node)
-
-    Gear substrate-based node, ready for hacking :rocket:.
-
-* [gstd](https://github.com/gear-tech/gear/tree/master/gstd)
-
-    Standard library for Gear smart contracts.
-
-* [examples](https://github.com/gear-tech/gear/tree/master/examples)
-
-    Gear smart contract examples.
+- [x] [Grid / Screen Filters](https://github.com/Hexworks/zircon/issues/271)
+- [ ] [Floating Components](https://github.com/Hexworks/zircon/issues/23)
 
 ## License
 
@@ -212,19 +206,19 @@ Gear is licensed under [GPL v3.0 with a classpath linking exception](LICENSE).
     <a href="https://gear-tech.io/">
       Website
     </a>
-    <span> | </span>
+    <span> • </span>
     <a href="https://wiki.gear-tech.io/">
       Wiki
     </a>
-    <span> | </span>
+    <span> • </span>
     <a href="https://gear-tech.io/#community">
       Community
     </a>
-    <span> | </span>
+    <span> • </span>
     <a href="https://gear-tech.io/events.html">
       Events
     </a>
-    <span> | </span>
+    <span> • </span>
     <a href="https://gear-tech.io/#about">
       About the company
     </a>
@@ -234,15 +228,15 @@ Gear is licensed under [GPL v3.0 with a classpath linking exception](LICENSE).
     </a>
     <span> | </span>
     <a href="https://github.com/gear-tech">
-        <img src="https://gear-tech.io/images/footer-social-icon-2.svg" alt="twit" style="width:24px;  height:24px; vertical-align:middle">
+        <img src="https://gear-tech.io/images/footer-social-icon-2.svg" alt="github" style="width:24px;  height:24px; vertical-align:middle">
     </a>
     <span> | </span>
     <a href="https://discord.gg/7BQznC9uD9">
-        <img src="https://gear-tech.io/images/footer-social-icon-3.svg" alt="twit" style="width:24px;  height:24px; vertical-align:middle">
+        <img src="https://gear-tech.io/images/footer-social-icon-3.svg" alt="discord" style="width:24px;  height:24px; vertical-align:middle">
     </a>
     <span> | </span>
     <a href="https://medium.com/@gear_techs">
-        <img src="https://gear-tech.io/images/footer-social-icon-4.svg" alt="twit" style="width:24px;  height:24px; vertical-align:middle">
+        <img src="https://gear-tech.io/images/footer-social-icon-4.svg" alt="medium" style="width:24px;  height:24px; vertical-align:middle">
     </a>
   </h4>
 </div>
