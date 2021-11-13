@@ -44,14 +44,22 @@ Gear is a Substrate-based smart-contract platform allowing anyone to run dApp in
 
 # ⚙️ What does Gear do?
 
-|||
-|:--:|:--:|
-|<img src="images/rust.png" height="64"><br>Gear provides the easiest and most cost-effective way to run WebAssembly programs (smart-contracts) compiled from many popular languages, such as Rust, C/C++ and more.|<img src="images/api.png" height="64"><br>Gear ensures very minimal, intuitive, and sufficient API for running both newly written and existing programs on multiple networks without the need to rewrite them.|
-|<img src="images/state.png" height="64"><br>Smart Contracts are stored in the blockchain’s state and are invoked preserving their state upon request.|<img src="images/apps.png" height="64"><br>GEAR enables a seamless transition to Web3, alows running dApps, microservices, middleware, open APIs.|
+<p align="center">
+<img src="images/rust.png" height="64"><br>Gear provides the easiest and most cost-effective way <br>to run WebAssembly programs (smart-contracts) compiled from <br>many popular languages, such as Rust, C/C++ and more.
+</p>
+<p align="center">
+<img src="images/api.png" height="64"><br>Gear ensures very minimal, intuitive, and sufficient API <br>for running both newly written and existing programs <br>on multiple networks without the need to rewrite them.
+</p>
+<p align="center">
+<img src="images/state.png" height="64"><br>Smart Contracts are stored in the blockchain’s state <br>and are invoked preserving their state upon request.
+</p>
+<p align="center">
+<img src="images/apps.png" height="64"><br>GEAR enables a seamless transition to Web3, <br>alows running dApps, microservices, middleware, open APIs.
+</p>
 
 ### :fire: Key features
 
- - Programs run in WASM WM (near-native code execution speed)срщлщ 
+ - Programs run in WASM WM (near-native code execution speed)
  - **Unique** :crown: : Parallelizable architecture (even greater speed)
  - **Unique** :crown: : Actor model for message-passing communications - secure, effective, clear
  - dApp in minutes using GEAR libraries
@@ -90,13 +98,12 @@ To resolve the interoperability issue, Parity technologies focused on creating a
 Building a blockchain with Substrate allows it to be deployed on any compatible relay chain such as Polkadot and Kusama
 Substrate serves as a layer of communication between the relay chain and the parachain
 
-# 🏭 How does it work?
+# :factory: How does it work?
 
-<div style="position: relative;">
+The internal flow of Gear:
+
   <img src="images/internal_flow.png" alt="Snow" style="width:100%;">
-  <div style="position: absolute; top: 8px; left: 16px">The internal flow of Gear
-  </div>
-</div>
+
 Refer to the <a href="https://github.com/gear-tech/gear-technical/blob/master/TECHNICAL.pdf">technical paper</a> for some insights about how Gear works internally.
 
 # :books: Gear components
@@ -110,7 +117,7 @@ Refer to the <a href="https://github.com/gear-tech/gear-technical/blob/master/TE
 * [examples](https://github.com/gear-tech/gear/tree/master/examples) - Gear smart contract examples.
 
 
-# <img style="vertical-align:middle" src="https://seeklogo.com/images/F/For_Dummies-logo-270963AFD1-seeklogo.com.png" width="40" alt="get-start"> Getting Started
+# :baby: Getting Started
 
 1. To start familiarity with Gear, download and run Gear node connected to the testnet.
 
@@ -118,7 +125,7 @@ Refer to the <a href="https://github.com/gear-tech/gear-technical/blob/master/TE
 
 2. Deploy and test smart contract, check how it is going. A comprehensive amount of smart contract examples is available for your convenience and faster onboarding.
 
-## <img style="vertical-align:middle" src="https://miro.medium.com/max/256/0*85Brxv3Qe4ps_A6C" width="40" alt="run-node"> Run Gear Node
+## :computer: 1. Run Gear Node
 
 ....Some node Badge...?
 
@@ -145,19 +152,20 @@ Gear node can run in a single Dev Net mode or you can create a Multi-Node local 
 
 Refer to the [Gear Node README](https://github.com/gear-tech/gear/tree/master/node) for details and some examples.
 
-## <img style="vertical-align:middle" src="https://www.clipartmax.com/png/full/37-379882_smart-contract-vulnerability-smart-contracts-blockchain-icon.png" width="40" alt="run-node"> Run you first smart contract
+## :scroll: Write and prepare your smart-contract
 
-Prepare your program
-1. Choose an example program from [examples](https://github.com/gear-tech/gear/tree/master/examples) or use your own program
-2. Follow the [instruction](https://github.com/gear-tech/gear/blob/master/examples/README.md) to build the Rust to WebAssembly program
+You can take your own program writeen on general purpose language (Rust) or use one of provided [examples](https://github.com/gear-tech/gear/tree/master/examples).
+
+Follow the [instruction](https://github.com/gear-tech/gear/blob/master/examples/README.md) to compile the Rust to WebAssembly program.
+
+## :runner: Run you first smart contract
+
     
 ### Upload program from UI
     
 1. Go to [https://idea.gear-tech.io](https://idea.gear-tech.io)
-<img style="vertical-align:middle" src="..." width="40" alt="get-start">
-Screenoshot / GIF
 
-2. Sign in to Gear via Telegram or Github account
+2. Sign-in to Gear via Telegram or Github account
 
 3. Connect to your node:
     1. TBD
@@ -169,12 +177,14 @@ Screenoshot / GIF
         1. the file can be found after program compilation from available examples
     4. Click **Upload program**, wait for the program initialization
 
+ <img src="images/upload.png" alt="Upload"><br>
+
 6. Try sending message to program, check reply:
     1. TBD... 
 
 ### Upload program locally from cmd
     
-Upload program locally on your node: 
+Alternatively youcan upload program locally on your node: 
 
 TBD...
 
