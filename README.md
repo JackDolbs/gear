@@ -68,10 +68,10 @@ Gear is a Substrate-based smart-contract platform allowing anyone to run dApp in
 ### :bulb: Main capabilities
 
 Gear allows anyone to create and run any custom-logic dApp and is a go-to solution for the following types of applications:
-  - A **self-contained blockchain** network (and very fast).
-  - A standalone instance running microservices, middleware, open API and more
+  - **Run dApps** that support business logic of any project in the **decentralized Gear network** (very fast). Upload programs to the network and interact with them.
   - Being a **Polkadot parachain**, establish cross-chain communications between other blockchains. Allow anyone to run a dApp in the Polkadot network in a very **cost-less** manner.
   - Join Substrate-supported blockchains in any other platform outside Polkadot.
+  - A standalone instance running microservices, middleware, open API and more
   
   # 🧐 Why?
 
@@ -119,14 +119,13 @@ Refer to the <a href="https://github.com/gear-tech/gear-technical/blob/master/TE
 
 # :baby: Getting Started
 
-1. To start familiarity with Gear, write your smart-contract program or take one from the [examples](https://github.com/gear-tech/gear/tree/master/examples). A comprehensive amount of smart contract examples is available for your convenience and faster onboarding.
+1. To start familiarity with Gear, you can bring your own smart-contract program or take one from the [examples](https://github.com/gear-tech/gear/tree/master/examples). A comprehensive amount of smart contract examples is available for your convenience and faster onboarding.
 
-2. Compile your smart-contract into WASM
+2. Compile your smart-contract into WASM.
 
-3. Deploy and test smart contract, send a message to a program, check how it is going. 
+3. Deploy and test smart contract in Gear demo environment, send a message to a program, check how it is going. 
 
-4. Also you can download and run your own Gear node connected to the Gear testnet or create your own multi-onde local testnet.
-
+4. Also you can download and run your Gear node locally or create your own multi-node local testnet.
 
 ## :scroll: 1. Write and prepare your smart-contract
 
@@ -140,7 +139,7 @@ Follow the instrucitons from [Gear Wiki](https://wiki.gear-tech.io/get-started/g
     
 ### Upload program from UI
     
-1. Go to [https://idea.gear-tech.io](https://idea.gear-tech.io)
+1. Gear provides demo environment that emulates the real decentralized network, go to [https://idea.gear-tech.io](https://idea.gear-tech.io)
 
 2. Choose the most convenient method to Sign-in to Gear - using Telegram or Github account
 
