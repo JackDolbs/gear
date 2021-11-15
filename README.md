@@ -146,7 +146,7 @@ Follow the instrucitons from [Gear Wiki](https://wiki.gear-tech.io/get-started/g
 
 3. Create a Gear network account by clicking Add account in the top right corner:
 
- <img src="images/create-acc.png" alt="NewAcc" height="400px"><br>
+ <img src="images/create-acc.png" alt="NewAcc"><br>
 
 4. Click **Upload program** and choose compiled .wasm file to upload
     1. Set enough Gas limit - 1 000 000
