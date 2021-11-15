@@ -119,15 +119,57 @@ Refer to the <a href="https://github.com/gear-tech/gear-technical/blob/master/TE
 
 # :baby: Getting Started
 
-1. To start familiarity with Gear, download and run Gear node connected to the testnet.
+1. To start familiarity with Gear, write your smart-contract program or take one from the [examples](https://github.com/gear-tech/gear/tree/master/examples). A comprehensive amount of smart contract examples is available for your convenience and faster onboarding.
 
-2. Build your smart-contract into WASM 
+2. Compile your smart-contract into WASM
 
-2. Deploy and test smart contract, check how it is going. A comprehensive amount of smart contract examples is available for your convenience and faster onboarding.
+3. Deploy and test smart contract, send a message to a program, check how it is going. 
 
-## :computer: 1. Run Gear Node
+4. Also you can download and run your own Gear node connected to the Gear testnet or create your own multi-onde local testnet.
 
-....Some node Badge...?
+
+## :scroll: 1. Write and prepare your smart-contract
+
+You can take your own program written on general purpose language (Rust is recommended) or use one of provided [examples](https://github.com/gear-tech/gear/tree/master/examples).
+
+## :wrench: 2. Compile smart-contract to WASM
+
+Follow the instrucitons from [Gear Wiki](https://wiki.gear-tech.io/get-started/getting-started-in-5-minutes) to compile the Rust to WebAssembly program.
+
+## :runner: Run you first smart contract
+    
+### Upload program from UI
+    
+1. Go to [https://idea.gear-tech.io](https://idea.gear-tech.io)
+
+2. Choose the most convenient method to Sign-in to Gear - using Telegram or Github account
+
+3. Create a Gear network account by clicking Add account in the top right corner:
+
+ <img src="images/create-acc.png" alt="NewAcc" height="400px"><br>
+
+4. Click **Upload program** and choose compiled .wasm file to upload
+    1. Set enough Gas limit - 1 000 000
+    2. Intial parameters, Initial value - keep default
+    3. Upload file with Metadata, if applicable
+        1. the file can be found after program compilation from available examples
+    4. Click **Upload program**, wait for the program initialization
+
+ <img src="images/upload.png" alt="Upload"><br>
+
+5. Once your program is uploaded, head to the Recently uploaded programs section and find your program.
+
+<img src="images/recent-progs.png" alt="recent-progs">
+
+6. You can interact with your program via this action button: <img src="images/send-msg.png" alt="send-msg">
+
+7. Deep dive to the [Smart Contracts section](https://wiki.gear-tech.io/get-started/smart-contracts/gear-program) of the GEAR Wiki for more details.
+
+## :computer: 4. Run Gear Node  
+
+Gear node can run in a single Dev Net mode or you can create a Multi-Node local testnet or make your own build of Gear node.
+
+Refer to the [Gear Node README](https://github.com/gear-tech/gear/tree/master/node) for details and some examples.
 
 1. Download nightly build of Gear node:
 
@@ -148,49 +190,9 @@ Refer to the <a href="https://github.com/gear-tech/gear-technical/blob/master/TE
     gear-node --help
     ```
 
-Gear node can run in a single Dev Net mode or you can create a Multi-Node local testnet or make your own build of Gear node.
-
-Refer to the [Gear Node README](https://github.com/gear-tech/gear/tree/master/node) for details and some examples.
-
-## :scroll: Write and prepare your smart-contract
-
-You can take your own program writeen on general purpose language (Rust) or use one of provided [examples](https://github.com/gear-tech/gear/tree/master/examples).
-
-Follow the [instruction](https://github.com/gear-tech/gear/blob/master/examples/README.md) to compile the Rust to WebAssembly program.
-
-## :runner: Run you first smart contract
-
-    
-### Upload program from UI
-    
-1. Go to [https://idea.gear-tech.io](https://idea.gear-tech.io)
-
-2. Sign-in to Gear via Telegram or Github account
-
-3. Connect to your node:
-    1. TBD
-
-4. Click **Upload program** and choose compiled .wasm file to upload
-    1. Set enough Gas limit - 1 000 000
-    2. Intial parameters, Initial value - keep default
-    3. Upload file with Metadata, if applicable
-        1. the file can be found after program compilation from available examples
-    4. Click **Upload program**, wait for the program initialization
-
- <img src="images/upload.png" alt="Upload"><br>
-
-6. Try sending message to program, check reply:
-    1. TBD... 
-
-### Upload program locally from cmd
-    
-Alternatively youcan upload program locally on your node: 
-
-TBD...
-
 # Contribution
 
-You can request a new feature by creating a new Issue or discuss it with us on Discord. 
+You can request a new feature by creating a new Issue or discuss it with us on [Discord](https://discord.gg/7BQznC9uD9). 
 Here are some features in-prog or planned: https://github.com/gear-tech/gear/issues
 
 # License
