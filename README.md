@@ -136,7 +136,7 @@ You can take your own program written on general purpose language (Rust is recom
 
 Follow the instrucitons from [Gear Wiki](https://wiki.gear-tech.io/get-started/getting-started-in-5-minutes) to compile the Rust to WebAssembly program.
 
-## :runner: Run you first smart contract
+## :runner: 3. Run you first smart contract
     
 ### Upload program from UI
     
