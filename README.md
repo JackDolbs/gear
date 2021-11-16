@@ -54,7 +54,7 @@ Gear is a Substrate-based smart-contract platform allowing anyone to run dApp in
 <img src="images/state.png" height="64"><br>Smart Contracts are stored in the blockchain’s state <br>and are invoked preserving their state upon request.
 </p>
 <p align="center">
-<img src="images/apps.png" height="64"><br>GEAR enables a seamless transition to Web3, <br>alows running dApps, microservices, middleware, open APIs.
+<img src="images/apps.png" height="64"><br>GEAR enables a seamless transition to Web3, <br>enables running dApps, microservices, middleware, open APIs.
 </p>
 
 ### :fire: Key features
